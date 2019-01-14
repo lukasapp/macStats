@@ -1,0 +1,35 @@
+{
+  "name": "macstats",
+  "productName": "macStats",
+  "version": "1.0.0",
+  "description": "A programm to monitor CPU and RAM usage on a Mac.",
+  "main": "./app/main.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukasapp/macStats.git"
+  },
+  "keywords": [
+    "mac",
+    "stats",
+    "cpu",
+    "ram"
+  ],
+  "author": "lukasapp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lukasapp/macStats/issues"
+  },
+  "homepage": "https://github.com/lukasapp/macStats#readme",
+  "devDependencies": {
+    "electron": "^4.0.1",
+    "electron-packager": "^13.0.1",
+    "electron-prebuilt": "^1.4.13"
+  },
+  "dependencies": {
+    "rxjs": "^6.3.3"
+  }
+}
